@@ -1,0 +1,63 @@
+.bgcolor{
+    background-color: black;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.logo{
+    padding-top: 0%;
+}
+
+.search{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+form {
+    display: flex;
+    margin-top: -12%;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;}
+
+/* .textcol{
+    color: bisque;
+} */
+
+.nowshowing{
+    text-align: center;
+}
+
+.movie{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.seatinfo{
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.textcol{
+    color: antiquewhite;
+}

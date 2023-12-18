@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Booking App</title>
+  <link rel="stylesheet" href="movie.css">
+</head>
+<body class="bgcolor">
+
+  <div>
+    <span style="padding: 2%;"><img
+            src="C:\Users\jofin\Desktop\My Folder\DS_Christ\Trimester_2\CAT_1\bookmyshowlogo.jpg" alt="logo"
+            height="50" width="160"></span>
+</div>
+
+<div class="navbar">
+  <a href="index.html"><span style="padding: 0.5cm;">Movies and Shows</span></a>
+  <a href="seats-availability.html"><span style="padding: 0.5cm;">Seats</span></a>
+  <a href="movie-reviews.html"><span style="padding: 0.5cm;">Movie Reviews</span></a>
+</div>
+
+<div class="search">
+  <form action="/search" method="get">
+      <input type="text" name="q" placeholder="Search movies and shows...">
+      <input type="submit" value="Search">
+  </form>
+</div>
+ <br>
+ <br>
+  <header class="nowshowing">
+    <h1><span style="color: blanchedalmond;">Now Showing</span></h1>
+  </header>
+  
+  <br>
+  <br>
+  <section id="movies-list">
+    <div class="movie">
+      <h2 class="textcol">Spider-Man:No Way Home</h2>
+      <image src="C:\Users\jofin\Desktop\My Folder\DS_Christ\Trimester_2\CAT_1\sm.jpg" alt="image" height="200" width="180"></image>
+      <p class="textcol">Showtimes: 1:00 PM, 4:00 PM, 7:00 PM</p>
+      <a href="movie-reviews.html">See Reviews</a>
+      <a href="seats-availability.html">Book Seats</a>
+    </div>
+
+    <div class="movie">
+      <h2 class="textcol">Dune</h2>
+      <image src="C:\Users\jofin\Desktop\My Folder\DS_Christ\Trimester_2\CAT_1\dune.jpg" alt="image" height="200" width="180"> </image>
+      <p class="textcol">Showtimes: 2:00 PM, 5:00 PM, 8:00 PM</p>
+      <a href="movie-reviews.html">See Reviews</a>
+      <a href="seats-availability.html">Book Seats</a>
+    </div>
+    
+    <!-- Add more movie listings as needed -->
+  </section>
+</body>
+</html>
